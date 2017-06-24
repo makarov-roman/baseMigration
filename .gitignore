@@ -1,0 +1,4 @@
+.idea/*
+db_config.js
+result.json
+node_modules

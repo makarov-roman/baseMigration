@@ -1,0 +1,204 @@
+{
+  //"_id": "59293304b69621123c8a3d2b",
+  //"text": "skype",
+  //"owner": "777",
+//  "ylinks": [
+//    {
+//      "link": "https://www.skype.com/ru/",
+//      "ton": "sobst",
+//      "cover": 3357
+//    },
+//    {
+//      "link": "https://web.skype.com/",
+//      "ton": "sobst",
+//      "cover": 0
+//    },
+//    {
+//      "link": "https://www.skype.com/ru/download-skype/skype-for-computer/",
+//      "ton": "pos",
+//      "cover": 3357
+//    },
+//    {
+//      "link": "https://play.google.com/store/apps/details?id=com.skype.raider&hl=ru",
+//      "ton": "pos-trast",
+//      "cover": 10196
+//    },
+//    {
+//      "link": "https://www.skype.com/en/",
+//      "ton": "neg",
+//      "cover": 3357
+//    },
+//    {
+//      "link": "https://ru.wikipedia.org/wiki/Skype",
+//      "ton": "neg",
+//      "cover": 47398
+//    },
+//    {
+//      "link": "https://support.skype.com/ru/skype/windows-desktop/",
+//      "ton": "neit",
+//      "cover": 0
+//    },
+//    {
+//      "link": "https://itunes.apple.com/us/app/skype-for-ipad/id442012681?mt=8",
+//      "ton": "pos",
+//      "cover": 3451
+//    },
+//    {
+//      "link": "https://play.google.com/store/apps/details?id=com.skype.raider",
+//      "ton": "pos-trast",
+//      "cover": 10196
+//    },
+//    {
+//      "link": "https://en.wikipedia.org/wiki/Skype",
+//      "ton": "neg",
+//      "cover": 2693
+//    },
+//    {
+//      "link": "https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt=8",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://education.microsoft.com/skype-in-the-classroom/overview",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://twitter.com/skype?lang=ru",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://skype.ru.uptodown.com/windows/download",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://blogs.skype.com/",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://www.facebook.com/Skype/",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://skype.ru.softonic.com/",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://www.microsoft.com/en-us/store/p/skype/9wzdncrfj364",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://community.skype.com/t5/%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE-Skype/ct-p/ru",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://dev.skype.com/",
+//      "ton": null
+//    }
+//  ],
+//  "glinks": [
+//    {
+//      "link": "https://www.skype.com/ru/",
+//      "ton": "pos",
+//      "cover": 3357
+//    },
+//    {
+//      "link": "https://web.skype.com/",
+//      "ton": "neit",
+//      "cover": 0
+//    },
+//    {
+//      "link": "https://www.skype.com/ru/download-skype/skype-for-computer/",
+//      "ton": "neg",
+//      "cover": 3357
+//    },
+//    {
+//      "link": "https://play.google.com/store/apps/details?id=com.skype.raider&hl=ru",
+//      "ton": "neg-trast",
+//      "cover": 10196
+//    },
+//    {
+//      "link": "https://www.skype.com/en/",
+//      "ton": "sobst",
+//      "cover": 3357
+//    },
+//    {
+//      "link": "https://ru.wikipedia.org/wiki/Skype",
+//      "ton": "neit",
+//      "cover": 47398
+//    },
+//    {
+//      "link": "https://support.skype.com/ru/skype/windows-desktop/",
+//      "ton": "sobst",
+//      "cover": 0
+//    },
+//    {
+//      "link": "https://itunes.apple.com/us/app/skype-for-ipad/id442012681?mt=8",
+//      "ton": "sobst",
+//      "cover": 3451
+//    },
+//    {
+//      "link": "https://play.google.com/store/apps/details?id=com.skype.raider",
+//      "ton": "neit-trast",
+//      "cover": 10196
+//    },
+//    {
+//      "link": "https://en.wikipedia.org/wiki/Skype",
+//      "ton": "sobst",
+//      "cover": 2693
+//    },
+//    {
+//      "link": "https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt=8",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://education.microsoft.com/skype-in-the-classroom/overview",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://twitter.com/skype?lang=ru",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://skype.ru.uptodown.com/windows/download",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://blogs.skype.com/",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://www.facebook.com/Skype/",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://skype.ru.softonic.com/",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://www.microsoft.com/en-us/store/p/skype/9wzdncrfj364",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://community.skype.com/t5/%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE-Skype/ct-p/ru",
+//      "ton": null
+//    },
+//    {
+//      "link": "https://dev.skype.com/",
+//      "ton": null
+//    }
+//  ],
+  //"stress": 47,
+  //"rep": 64,
+  //"date": "26.05.2017",
+  //"region": 225,
+  //"color": "#57a701",
+  "ycover": 84005,
+  "gcover": 84005,
+  "requests": 29,
+  "changeRep": 21,
+  "changeStress": 12,
+  "changeYcover": 0,
+  "changeGcover": 0,
+  "changeRequests": 0,
+  "changeReqCount": 0,
+  "__v": 0
+}
