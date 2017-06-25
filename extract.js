@@ -29,10 +29,10 @@ async function main() {
       parsedQuery.text = query.name
       parsedQuery.color = query.color
       const owner = await getUserByID(query.user_id)
-      parsedQuery.owner = owner //Подумать что нужно
+      parsedQuery.owner = owner.email
 
       const region = await getRegionByID(query.region_id)
-      parsedQuery.region = region //Подумать что нужно
+      parsedQuery.region = region.id
 
       var ycover = 0
       var gcover = 0
@@ -44,7 +44,7 @@ async function main() {
         }
         const link = {
           link: position.url,
-          ton: position.tonality,
+          ton: mapTons(position.tonality),
         }
         const coverage = siteStats && siteStats.visits || undefined
         if (typeof coverage !== 'undefined') {
@@ -108,6 +108,17 @@ async function main() {
     const result = await connection.query('SELECT * FROM site_stats WHERE `id`=' + id)
     return result[0]
   }
+}
+
+function mapTons(ton) {
+  const mapper = {
+    owner: 'sobst',
+    neutral: 'neit',
+    positive: 'pos',
+    negative: 'neg'
+  }
+  if (!mapper.hasOwnProperty(ton)) return ton
+  return mapper[ton]
 }
 
 main()
