@@ -70,7 +70,7 @@ async function main() {
       counter++
       console.log('Work in progress - ' + (counter / results.length * 100).toFixed(2) + '%')
       finalStructure.push(parsedQuery)
-      if (counter >= limit) break
+      if (limit && counter >= limit) break
     }
     fs.writeFileSync(RESULT_FILENAME, JSON.stringify(finalStructure))
     console.log('done')
