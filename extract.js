@@ -46,9 +46,9 @@ async function main() {
           link: position.url,
           ton: position.tonality,
         }
-        const coverage = siteStats && siteStats.coverage || undefined
-        if (coverage) {
-          link.coverage = coverage
+        const coverage = siteStats && siteStats.visits || undefined
+        if (typeof coverage !== 'undefined') {
+          link.cover = coverage
         }
         if (position.system === 'ya') {
           if (coverage) {
