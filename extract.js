@@ -22,7 +22,7 @@ async function main() {
       parsedQuery.rep = result.ball
       parsedQuery.stress = result.stress_ball
       const date = new Date(result.updated_at)
-      parsedQuery.date = `${date.getDay()}.${date.getMonth()}.${date.getFullYear()}`
+      parsedQuery.date = `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`
 
 
       const query = await getQueryByID(result.query_id)
