@@ -109,6 +109,10 @@ isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
 
+jetty@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/jetty/-/jetty-0.2.1.tgz#9af255efe4bbe33296acf63165e3bf1816678593"
+
 jschardet@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/jschardet/-/jschardet-1.4.2.tgz#2aa107f142af4121d145659d44f50830961e699a"
@@ -121,6 +125,10 @@ mimic-fn@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.1.0.tgz#e667783d92e89dbd342818b5230b9d62a672ad18"
 
+moment@^2.18.1:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -132,10 +140,6 @@ mysql@^2.9.0:
     bignumber.js "3.1.2"
     readable-stream "1.1.14"
     sqlstring "2.2.0"
-
-n@^2.1.7:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/n/-/n-2.1.7.tgz#13fe032a5bed0797983bddf27eb0606517c73c74"
 
 onetime@^2.0.0:
   version "2.0.1"

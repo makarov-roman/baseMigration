@@ -2,12 +2,17 @@
 
 const mysql = require('promise-mysql')
 const config = require('./db_config')
+const moment = require('moment')
 const fs = require('fs')
+const Jetty = require('jetty')
+const jetty = new Jetty(process.stdout)
+jetty.clear()
 
 const RESULT_FILENAME = 'result.json'
 
 async function main() {
   const finalStructure = []
+  const fresh = []
   try {
     var connection = await mysql.createConnection(config)
     const results = await getResults()
@@ -68,11 +73,20 @@ async function main() {
       parsedQuery.gcover = gcover
 
       counter++
-      console.log('Work in progress - ' + (counter / results.length * 100).toFixed(2) + '%')
-      finalStructure.push(parsedQuery)
+      jetty.clearLine()
+      jetty.moveTo([0, 0])
+      jetty.text('Work in progress - ' + (counter / results.length * 100).toFixed(2) + '%')
+      if (moment(date).isSame(Date.now(), 'day')) {
+        fresh.push(parsedQuery)
+      } else {
+        finalStructure.push(parsedQuery)
+      }
       if (limit && counter >= limit) break
     }
-    fs.writeFileSync(RESULT_FILENAME, JSON.stringify(finalStructure))
+    fs.writeFileSync(RESULT_FILENAME, JSON.stringify({
+      fresh,
+      old: finalStructure
+    }))
     console.log('done')
     process.exit(1)
   }
